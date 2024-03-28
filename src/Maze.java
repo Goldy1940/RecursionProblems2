@@ -15,6 +15,7 @@ public class Maze {
          int[][] maze=new int[m][n];
 
          System.out.println("Enter the elments in maze");
+
         for(int i=0;i<maze.length;i++)
         {
             for(int j=0;j<maze[0].length;j++)
