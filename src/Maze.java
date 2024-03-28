@@ -22,6 +22,7 @@ public class Maze {
             {
                 maze[i][j]=sc.nextInt();
             }
+
         }
         boolean[][] visited=new boolean[m][n];
         floodfill(maze,0,0,"",visited);
